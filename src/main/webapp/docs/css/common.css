@@ -1,0 +1,82 @@
+@charset "utf-8";/** 清除内外边距  */
+body, h1, h2, h3, h4, h5, h6, hr, p,
+blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td, /* table elements 表格元素 */
+img/* img elements 图片元素 */{border:medium none;margin: 0;padding: 0;}
+*{margin: 0;padding: 0;}
+/** 设置默认字体 **/
+body,button, input, select, textarea {font-family:  "Microsoft YaHei","微软雅黑","宋体";font-size: 14px;line-height: 1.5;}
+h1, h2, h3, h4, h5, h6 {font-size: 100%;}
+ul,li{list-style:none}
+em{font-style:normal;}
+/** 重置列表元素 **/
+ul, ol {list-style: none;}
+/** 重置超链接元素 **/
+a {text-decoration: none;color:#000;}
+a:hover {text-decoration: underline;color:#3363a7;}
+/** 重置图片元素 **/
+img{border:0px;}
+/** 重置表格元素 **/
+table {border-collapse: collapse;border-spacing: 0;}
+.fl{float:left;}.fr{float: right;}
+.clear{clear:both;height:0px;font-size:0px;line-height:0px;}
+.clearfix:after {clear: both;content: " ";display: block;height: 0;}
+a{text-decoration:none;outline:none;}a:hover{text-decoration: underline;}
+body{}html{overflow-y:scroll;}
+.mt-10{margin-top:10px;}
+.ft12{font-size:12px;}
+/*清除浮动*/
+.clear{height:0px;line-height:0px;font-size:0px;clear:both;}
+.gray_c{color:#CCCCCC;}
+.gray_5 {color: #555555;}.gray_6{color: #666;}
+.gray_9{color: #999999;}
+.green{color:#009900;}
+ .red{color:#ff0000;}
+#header{height:76px;background-color:#314c77;border-top-style: none;border-right-style: none;border-bottom-style: none;border-left-style: none;}
+.top{height:49px;}
+.logo{font: lighter 22px/49px "Microsoft YaHei","微软雅黑","宋体";color:#fff;padding-left:20px;}
+.shezhi{color:#effaff;padding:10px 20px 0 0;}
+.exit{color:#effaff;background:url(../images/icon-white.png) no-repeat left 4px;display:inline-block;padding-left:22px;padding-right:10px;}
+.home-t{color:#effaff;background:url(../images/icon-white.png) no-repeat 0 -50px;display:inline-block;padding-left:22px;padding-right:10px;}
+.xd-t{color:#effaff;background:url(../images/icon-white.png) no-repeat 0 -22px;display:inline-block;padding-left:22px;padding-right:10px;}
+.shezhi a:hover{color:#effaff;}
+.yhm{padding-right:40px;color:#fff;line-height:27px;}
+.top-menu{padding-left:20px;height:27px;}
+.nav {}
+.nav li{float:left;height:26px;text-align:center;display:block;font-weight:bold;margin-right:8px;border-top-width: 1px;border-right-width: 1px;border-bottom-width: 0;border-left-width: 1px;border-top-style: solid;border-right-style: solid;border-bottom-style: solid;border-left-style: solid;border-top-color: #2E466D;border-right-color: #2E466D;border-bottom-color: #2E466D;border-left-color: #2E466D;background-color: #3E5F95;}
+
+
+.nav a{color:#FFF;display:block;padding:0 20px;border:background-color:#2c94d1;border-bottom:0;line-height:25px;border-radius:0px 0px 0 0;}
+.nav a:hover{text-decoration: none;background-color: #46679D;}
+.nav .nav-slect a{background-color: green;}
+.sidenav-wrapper {overflow-x: hidden;overflow-y: auto;height:640px;}
+.lfmenu > li {border-bottom: 1px solid #7f95b7;padding: 1px 0;}
+.lfmenu h3 {background-color: #e1e7f1;color: #314971;font-size: 12px;font-weight: bold;height: 22px;line-height:22px;margin: 0;padding: 3px 0 3px 10px;cursor:pointer;}
+.lfmenu li ul {list-style: outside none none;margin-left: 0;padding: 5px;}
+.lfmenu li ul li {margin-top: 2px;}
+.lfmenu li ul li a {color: #333;display: block;height: 22px;line-height: 22px;padding-left: 10px;}.lfmenu li .current {background-color: #ff6600;color:#ff6600 ;}
+.right-ct{padding:5px 15px 15px 15px;}
+.right-title{color:#555;margin-bottom:10px;}
+.home-ico{background:url(../images/home.png) no-repeat left 2px;padding-left:20px;display:inline-block;color:#0088cc;}
+
+.search-form {background-color: #f7f7fd;border: 1px solid #f2f2fa;padding: 5px;margin-top:10px;}
+.t-name1{padding:0px 0 8px;border-bottom:1px solid #eaeaea;}
+.search-form h3,.t-name1 h3 {font-size: 16px;line-height: 25px;display:inline-block;}
+.form-content{}
+table {background-color: transparent;border-collapse: collapse;border-spacing: 0;max-width: 100%;}
+label {display: block;margin-bottom: 5px;}
+.red, .error {color: #ca030a !important;}
+.not-open{padding:15px;text-align:center;}
+a.blue,.blue{color:#0088cc;}
+.code-lu-brand {text-align: center;width: 540px;}
+.code-lu-brand, .code-lu-content {margin: 0 auto;}
+
+.code-lu-brand h2 {background-color: #f8f8f8;border: 3px solid #e4e4e4;padding: 10px 25px 12px;margin-top:20px;}
+
+
+.code-lu-brand h2 small {font-size: 14px;}
+.guide-trigger {background-color: #6889b6;color: #fff;position: fixed;right: 0;top: 250px;width:25px;text-align:center;line-height:22px;padding:10px 0;}
+.guide-trigger a{color:#fff;}.guide-trigger a:hover{color:#ee3435; text-decoration:none;}
